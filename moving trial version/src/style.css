@@ -160,6 +160,10 @@ a:hover {
 .about-me {
     width: 60%;
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
 }
 
 .about-me img {
@@ -186,7 +190,7 @@ a:hover {
 }
 
 .form-row .form-control {
-    width: 50%;
+    width: 49.5%;
     font-size: 20px;
     padding: 20px 0;
 }
@@ -198,7 +202,7 @@ a:hover {
 }
 
 .form-submit textarea {
-    width: 100%;
+    width: 99%;
     border: none;
     resize: none;
     margin-top: 5px;
@@ -216,8 +220,13 @@ a:hover {
     }
 
     .form-row .form-control {
-        width: 100%;
+        width: 99%;
         margin-top: 5px;
+    }
+
+    .form-row button {
+        width: 100%;
+        padding: 20px 0px;
     }
 }
 
@@ -226,6 +235,6 @@ form button {
     background-color: rgba(114, 64, 155, 0.541);
     border: none;
     color: white;
-    padding: 20px 0;
+    padding: 20px;
     font-size: 20px;
 }
