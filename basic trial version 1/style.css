@@ -1,0 +1,240 @@
+body{
+    background-color: rgb(20,20,20);
+    color: white;
+    font-family: 'Bitter', serif;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+}
+
+header ul {
+    display: flex;
+    padding: 10px 10px 50px 10px;
+}
+
+li {
+    list-style: none;
+    margin: 5px 10px;
+}
+
+h1 {
+    font-size: 160px;
+    font-weight:500;
+}
+
+h2 {
+    margin: 0;
+    font-weight: 300;
+    text-align: center;
+}
+
+h3 {
+    margin: 0;
+    font-weight: 100;
+}
+
+.subtitle{
+    font-size: 50px;
+}
+
+section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.hero-section{
+    margin-top: 7vh;
+    text-align: center;
+}
+
+.light-text{
+    font-weight: 100;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sub-pages-footer{
+    position: relative;
+}
+
+@media only screen and (max-width: 800px){
+    .sub-pages-footer{
+        position: relative;
+    }
+}
+
+footer ul {
+    display: flex;
+    padding: 30px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    color: rgb(73, 19, 77);
+}
+
+.socials {
+    position: fixed;
+    right: 0;
+    top: 35vh;
+    width: 100px;
+    height: 320px;
+    background-color: rgb(73, 19, 77);
+    border-radius: 30px 0 0 30px;
+}
+
+@media only screen and (max-width: 800px){
+    .socials{
+        display: none;
+    }
+}
+
+.social {
+    width: 100%;
+    height: 33%;
+    color: white;
+}
+
+.social svg {
+    fill: white;
+}
+
+.options {
+    display: flex;
+    margin: 0px;
+}
+
+.options a {
+    margin: 0px 10px;
+}
+
+.wave {
+    fill: rgb(88, 28, 95);
+    opacity: 40%; 
+    width: 100vw;
+    height: 45vh;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+}
+
+.wave2 {
+    fill: rgb(232, 178, 238);
+    opacity: 20%; 
+    width: 100vw;
+    height: 45vh;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+}
+
+.work-details{
+    width: 60%;
+}
+
+.work-details td {
+    padding: 30px;
+}
+
+@media only screen and (max-width: 800px){
+    .work-details{
+        width: 80%;
+    }
+}
+
+.about-me {
+    width: 60%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.about-me img {
+    height: 200px;
+    margin: 40px 10px 10px 10px;
+    border-radius: 50%;
+}
+
+.form-row {
+    display: flex;
+}
+
+.form-submit {
+    width: 50%;
+}
+
+.form-submit form{
+    width: 100%;
+}
+
+.form-submit .form-row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.form-row .form-control {
+    width: 49.5%;
+    font-size: 20px;
+    padding: 20px 0;
+}
+
+.form-row .form-control:focus,
+.form-submit textarea:focus {
+    outline: 0;
+    background-color: rgba(114, 64, 155, 0.541);
+}
+
+.form-submit textarea {
+    width: 99%;
+    border: none;
+    resize: none;
+    margin-top: 5px;
+    font-size: 20px;
+}
+
+@media only screen and (max-width: 800px){
+    .form-submit{
+        width: 80%;
+    }
+
+    .form-submit .form-row {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .form-row .form-control {
+        width: 99%;
+        margin-top: 5px;
+    }
+
+    .form-row button {
+        width: 100%;
+        padding: 20px 0px;
+    }
+}
+
+form button {
+    width: 100%;
+    background-color: rgba(114, 64, 155, 0.541);
+    border: none;
+    color: white;
+    padding: 20px;
+    font-size: 20px;
+}
